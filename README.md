@@ -1,2 +1,2 @@
 # PicFusion
-PicFusion - A MERN Stack Instagram Clone
+PicFusion - A MERN Stack Instagram Clone is a full-stack social media web app that replicates core Instagram-like features: user authentication, image-based posts with captions, a follow system, and a responsive feed. Built with the MERN stack (MongoDB, Express, React, Node), FrameBook focuses on a clean UI, secure authentication using JWT, and a scalable backend suitable for real-world deployment.
