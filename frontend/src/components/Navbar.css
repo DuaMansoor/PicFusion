@@ -1,0 +1,115 @@
+img{
+    width: 10%;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+    box-shadow: 1px 5px 5px #e0dcdc;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+ul{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+li{
+    list-style: none;
+    padding: 1px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.primaryBtn{
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 13px 25px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #db183c;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: all 0.25s ease;
+}
+
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219, 24, 44, 0.6);
+}
+
+@media screen  and (max-width:800px){
+    #insta-logo {
+        display: none;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-mobile{
+        width:100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        width: 100px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0px -2px 5px #fff;
+
+    }
+    .navbar ul{
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    /* Update the styling for the FrameBook heading to resemble the Instagram logo */
+
+
+
+    
+    
+}
+/* #Framebook {
+  text-align: left;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  
+} */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Framebook {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    font-size: large;
+}
+
+.nav-menu li {
+    margin-right: 20px; /* Add spacing between the items */
+}
